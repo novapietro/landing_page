@@ -1,0 +1,189 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    
+}
+.wholeheader{
+     background-color: rgb(26, 26, 65);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: flex-start;
+    padding: 100px, 100px;
+}
+.randinfo{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    margin-top: 40px;
+    color: black;
+}
+.quote{
+    background-color: rgb(189, 189, 189);
+    height: 300px;
+    margin-top: 40px;
+    color: black;
+    display: flex;
+    justify-content: center; 
+     
+}
+.footer{
+    background-color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+    padding-top: 10px;
+    width: 100%;
+    
+}
+
+.menu2{
+    display: flex;
+     width: 75%;
+    justify-content: flex-end;
+    padding-top: 10px;
+    align-items: flex-end;
+}
+.menu3{
+    font-size: 14px;
+    color: rgb(151, 151, 151);
+    padding-right: 10px;
+}
+.menu1{
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    padding-top: 10px;
+}
+.headercontent {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    height: 50%;
+    width: 100% ;
+
+}
+.placeholderimage{
+    background-color: rgb(151, 151, 151);
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.smalltitle{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+
+.smalltext{
+    color: rgb(151, 151, 151);
+   padding-bottom: 10px;
+}
+.title{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+button{
+    background-color:#1F85DE;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.randinfotitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 250px;
+}
+.cardtext{
+    text-align: center;
+    padding-top: 10px;
+}
+.emptycard{
+    border: 2px solid #1F85DE;
+    border-radius: 10px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+}
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    margin-top: 30px;
+    gap: 30px;
+}
+.thor{
+    align-self: flex-end;
+    font-weight: bolder;
+}
+.ciccio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    width: 450px;
+}
+.quotetext{
+    font-style: italic;
+    font-size: large;
+    text-align: justify;
+}
+.footercontainer {
+    background-color: #1F85DE;
+    width: 600px;
+    border-radius: 10px;
+    padding: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.firsttext {
+    font-weight: bolder;
+}
+.footerbutton{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+}
+
